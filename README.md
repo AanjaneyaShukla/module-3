@@ -1,8 +1,8 @@
 # Module 3 individual assignment #
 
-Submitted by: x500@umn.edu
+Submitted by: shukl031@umn.edu
 
-Heroku URL: heroku_url_to_your_app
+Heroku URL: https://floating-escarpment-56278.herokuapp.com/
 
 ## Overview #
 
