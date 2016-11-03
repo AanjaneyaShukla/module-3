@@ -6,6 +6,7 @@ import { Router, Route, browserHistory } from 'react-router'
 
 import Root from './Root'
 import Foo from './Foo'
+import Movie from './Movie'
 import MainLayout from './MainLayout'
 import './index.css'
 
@@ -15,6 +16,7 @@ render((
     <Route component={MainLayout}>
       <Route path="/" component={Root}/>
       <Route path="/foo" component={Foo}/>
+      <Route path="/movie/:id" component={Movie}/>
     </Route>
   </Router>
 ), document.getElementById('root'))

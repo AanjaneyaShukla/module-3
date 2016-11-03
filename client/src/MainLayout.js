@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from './logo.svg';
+import logo from './movie.ico';
 import './MainLayout.css';
 
 class MainLayout extends Component {
@@ -10,7 +10,7 @@ class MainLayout extends Component {
       <div className="MainLayout">
         <div className="MainLayout__header">
           <img src={logo} className="MainLayout__logo" alt="logo" />
-          <h2>San Dimas High School Football</h2>
+          <h1 className="MainLayout__Text">Moviezzz</h1>
         </div>
 
         <main>
